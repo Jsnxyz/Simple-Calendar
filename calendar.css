@@ -1,0 +1,44 @@
+.calendar-wrapper{
+	width:20%;
+	height:auto;
+	margin-left:40%;
+	margin-top:10%;
+	float:left;
+	position: relative;
+}
+.calendar-top,.left-button-wrap,.month-year,.right-button-wrap{
+	float:left;
+	width:23.33%;
+}
+.calendar-top{
+	width:100%;
+}
+.right-button-wrap{
+	text-align:right;
+}
+.month-year{
+	text-align: center;
+	width:53.33%;
+}
+.calendar-body{
+	clear:both;
+}
+td{
+	border-style:solid;
+	border-width:1px;
+}
+.popup{
+	display:none;
+	position:absolute;
+	text-align:center;
+	top:50%;
+	left:50%;
+	width:60%;
+	height:60%;
+	margin-left:-30%;
+	margin-top:-30%;
+	border-color:#f3f3f3;
+	border-style:solid;
+	border-width:1px;
+	background-color:white;
+}
